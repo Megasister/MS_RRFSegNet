@@ -13,8 +13,10 @@ IEEE Transactions on Geoscience and Remote Sensing
 In this paper, we propose a novel method for urban scene point cloud semantic segmentation using deep learning. Firstly, we use homogeneous supervoxels to reorganize raw point clouds to effectively reduce the computational complexity and improve the non-uniform distribution. Then, we use supervoxels as basic processing units, which can further expand receptive fields to obtain more descriptive contexts. Next, a sparse auto-encoder (SAE) is presented for feature embedding representations of the supervoxels. Subsequently, we propose a regional relation feature reasoning module (RRFRM) inspired by [relation reasoning network](https://arxiv.org/abs/1706.01427) and design a multi-scale regional relation feature segmentation network (MS-RRFSegNet) based on the RRFRM to semantically label supervoxels. Finally, the supervoxel-level inferences are transformed into point-level fine-grained predictions.
 
 ## Dataset
-<div align=center><img src="./figs/dataset.png" height="548" width="600"></div>
 Our proposed method has been evaluated on two open benchmarks -- [Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) and [Semantic3D](http://www.semantic3d.net/).
+
+<div align=center><img src="./figs/dataset.png" height="548" width="600"></div>
+
 
 ## Requirements
 - Python 3.6

@@ -7,13 +7,13 @@ This repo contains the source code for our paper that has been accepted by IEEE 
 IEEE Transactions on Geoscience and Remote Sensing
 <br>
 
-<div align=center><img src="./figs/overall_workflow.png" height=300 width="408"></div>
+<div align=center><img src="./figs/overall_workflow.png" height="441" width="600"></div>
 
 ## Introduction
 In this paper, we propose a novel method for urban scene point cloud semantic segmentation using deep learning. Firstly, we use homogeneous supervoxels to reorganize raw point clouds to effectively reduce the computational complexity and improve the non-uniform distribution. Then, we use supervoxels as basic processing units, which can further expand receptive fields to obtain more descriptive contexts. Next, a sparse auto-encoder (SAE) is presented for feature embedding representations of the supervoxels. Subsequently, we propose a regional relation feature reasoning module (RRFRM) inspired by [relation reasoning network](https://arxiv.org/abs/1706.01427) and design a multi-scale regional relation feature segmentation network (MS-RRFSegNet) based on the RRFRM to semantically label supervoxels. Finally, the supervoxel-level inferences are transformed into point-level fine-grained predictions.
 
 ## Dataset
-![MS_RRFSegNet](/figs/dataset.png)
+<div align=center><img src="./figs/dataset.png" height="548" width="600"></div>
 Our proposed method has been evaluated on two open benchmarks ([Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) and [Semantic3D](http://www.semantic3d.net/)).
 
 ## Requirements
@@ -47,7 +47,7 @@ If you find this project useful for your research, please kindly cite our paper:
 
 Our paper is coming soon.
 
-##Acknowledgment
+## Acknowledgment
 we would like to acknowledge the provision of reference code by [Charles R. Qi](https://github.com/charlesq34/pointnet) and [Yue Wang](https://github.com/WangYueFt/dgcnn), respectively.
 
 

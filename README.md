@@ -14,7 +14,7 @@ In this paper, we propose a novel method for urban scene point cloud semantic se
 
 ## Dataset
 <div align=center><img src="./figs/dataset.png" height="548" width="600"></div>
-Our proposed method has been evaluated on two open benchmarks ([Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) and [Semantic3D](http://www.semantic3d.net/)).
+Our proposed method has been evaluated on two open benchmarks -- [Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) and [Semantic3D](http://www.semantic3d.net/).
 
 ## Requirements
 - Python 3.6
@@ -37,18 +37,20 @@ We also provide three training supervoxel samples and one testing supervoxel sam
 
 ## Results
 * Semantic segmentation results of Paris-Lille-3D official testing set.
-![MS_RRFSegNet](/figs/PL3D.png)
+<div align=center><img src="./figs/PL3D.png" height="319" width="600"></div>
+
 
 * Semantic segmentation results of Semantic3D official testing set (reduced-8 version).
-![MS_RRFSegNet](/figs/S3D.png)
+<div align=center><img src="./figs/S3D.png" height="306" width="600"></div>
+
 
 ## Citation
 If you find this project useful for your research, please kindly cite our paper:
 
-Our paper is coming soon.
+Our paper is coming soon...
 
 ## Acknowledgment
-we would like to acknowledge the provision of reference code by [Charles R. Qi](https://github.com/charlesq34/pointnet) and [Yue Wang](https://github.com/WangYueFt/dgcnn), respectively.
+We would like to acknowledge the provision of reference code by [Charles R. Qi](https://github.com/charlesq34/pointnet) and [Yue Wang](https://github.com/WangYueFt/dgcnn), respectively.
 
 
 

@@ -7,15 +7,12 @@ This repo contains the source code for our paper that has been accepted by IEEE 
 IEEE Transactions on Geoscience and Remote Sensing
 <br>
 
-<div align=center><img src="./figs/overall_workflow.png" height="441" width="600"></div>
 
 ## Introduction
 In this paper, we propose a novel method for urban scene point cloud semantic segmentation using deep learning. Firstly, we use homogeneous supervoxels to reorganize raw point clouds to effectively reduce the computational complexity and improve the non-uniform distribution. Then, we use supervoxels as basic processing units, which can further expand receptive fields to obtain more descriptive contexts. Next, a sparse auto-encoder (SAE) is presented for feature embedding representations of the supervoxels. Subsequently, we propose a regional relation feature reasoning module (RRFRM) inspired by [relation reasoning network](https://arxiv.org/abs/1706.01427) and design a multi-scale regional relation feature segmentation network (MS-RRFSegNet) based on the RRFRM to semantically label supervoxels. Finally, the supervoxel-level inferences are transformed into point-level fine-grained predictions.
 
 ## Dataset
 Our proposed method has been evaluated on two open benchmarks -- [Paris-Lille-3D](https://npm3d.fr/paris-lille-3d) and [Semantic3D](http://www.semantic3d.net/).
-
-<div align=center><img src="./figs/dataset.png" height="548" width="600"></div>
 
 
 ## Requirements
@@ -37,13 +34,6 @@ We also provide three training supervoxel samples and one testing supervoxel sam
 * Run `./ms_rrfsegnet/train_ms_rrfsegnet.py` to train MS-RRFSegNet for supervoxel-level semantically labeling.
 * Run `./ms_rrfsegnet/test_spl2pl.py` to test the trained MS-RRFSegNet and transform supervoxel-level predictions into dense point-level results.
 
-## Results
-* Semantic segmentation results of Paris-Lille-3D official testing set.
-<div align=center><img src="./figs/PL3D.png" height="319" width="600"></div>
-
-
-* Semantic segmentation results of Semantic3D official testing set (reduced-8 version).
-<div align=center><img src="./figs/S3D.png" height="306" width="600"></div>
 
 
 ## Citation

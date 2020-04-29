@@ -1,10 +1,10 @@
 # MS-RRFSegNet
 
-This repo contains the source code for our paper that has been published by IEEE Transactions on Geoscience and Remote Sensing (Early Access):
+This repo contains the source code of our paper:
 
 [**MS-RRFSegNet: Multi-Scale Regional Relation Feature Segmentation Network for Semantic Segmentation of Urban Scene Point Clouds**](https://ieeexplore.ieee.org/document/9080553/authors#authors)
 <br>
-IEEE Transactions on Geoscience and Remote Sensing
+IEEE Transactions on Geoscience and Remote Sensing (Early Access)
 <br>
 <div align=center><img src="./figs/overall_workflow.png" height="441" width="600"></div>
 
@@ -26,7 +26,7 @@ Our proposed method has been evaluated on two open benchmarks -- [Paris-Lille-3D
 We also provide three training supervoxel samples and one testing supervoxel sample (`./data/*` ) for testing the code. Training data format: [x, y, z, r, g, b, supervoxel_id, training_label]. Testing data format: [x, y, z, r, g, b, supervoxel_id].
 
 ## Perform Experiments
-* Download dataset, and then generate samples according to the related description in [our paper]().
+* Download dataset, and then generate samples according to the related description in our paper.
 * Over segment samples into supervoxels like the examples in `./data/*`.
 * Run `./auto_encoder/train_SAE.py` to train a SAE model for supervoxel embedding representation (SER). 
 * Run `./auto_encoder/ser.py` to convert all samples into SER.
@@ -38,10 +38,8 @@ We also provide three training supervoxel samples and one testing supervoxel sam
 * Semantic segmentation results of Paris-Lille-3D official testing set.
 <div align=center><img src="./figs/PL3D.png" height="319" width="600"></div>
 
-
 * Semantic segmentation results of Semantic3D official testing set (reduced-8 version).
 <div align=center><img src="./figs/S3D.png" height="306" width="600"></div>
-
 
 ## Citation
 If you find this project useful for your research, please kindly cite our paper:

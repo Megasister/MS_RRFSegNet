@@ -1,6 +1,7 @@
 # MS-RRFSegNet
 
 This repo contains the source code for our paper that has been published by IEEE Transactions on Geoscience and Remote Sensing (Early Access):
+
 [**MS-RRFSegNet: Multi-Scale Regional Relation Feature Segmentation Network for Semantic Segmentation of Urban Scene Point Clouds**](https://ieeexplore.ieee.org/document/9080553/authors#authors)
 <br>
 IEEE Transactions on Geoscience and Remote Sensing
